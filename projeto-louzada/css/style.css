@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+
 }
 
 h1{
@@ -20,3 +20,12 @@ header{
     height: 80px;
     color: white;
 }
+
+#imagem img{
+    position: fixed;
+    right: -100px;
+    height: 100%;
+    bottom: 0px;
+}
+
+
