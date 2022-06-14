@@ -1,0 +1,37 @@
+#logo{
+    height: 5em;
+}
+ header{
+     height: 2em;
+ }
+
+ #p1{
+     margin-top: 2em;
+     height: 30em;
+ }
+
+#cont{
+    height: 30em;
+}
+
+#marca{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#text{
+    font-size: 20px;
+    color: grey;
+}
+
+#texto{
+    text-align: center;
+    margin-top: 6em;
+}
+
+#bt{
+    background-color: white;
+    border-radius: 3px;
+}
+
+
