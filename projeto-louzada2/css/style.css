@@ -5,15 +5,6 @@
      height: 2em;
  }
 
- #p1{
-     margin-top: 2em;
-     height: 30em;
- }
-
-#cont{
-    height: 30em;
-}
-
 #marca{
     font-size: 30px;
     font-weight: 700;
@@ -25,13 +16,65 @@
 }
 
 #texto{
+    height: 30em;
+    width: 30em;
     text-align: center;
-    margin-top: 6em;
 }
 
 #bt{
     background-color: white;
     border-radius: 3px;
 }
+
+#casa{
+    margin-top: -1em;
+    margin-left: -1em;
+    height: 31em;
+    width: 36em;
+}
+
+#d2{
+    background-color: rgb(184, 183, 183);
+    height: 30em;
+}
+
+#logot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #170457;
+}
+
+#lamp{
+    width: 35.7em;
+    height: 30em;
+    margin-left: -1em;
+}
+
+#d4{
+    background-color: rgb(184, 183, 183);
+    height: 30em;
+}
+
+#d5{
+    background-color: rgb(184, 183, 183);
+    height: 30em;
+}
+
+#t1{
+    margin-top: 8em;
+}
+
+#mulher{
+    height: 30em;
+    width: 35.7em;
+    margin-left: -1em;
+}
+
+#comp{
+    height: 30em;
+    width: 36em;
+    margin-left: -1em;
+}
+
+
 
 
