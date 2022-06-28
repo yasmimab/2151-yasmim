@@ -43,12 +43,15 @@
     color: #170457;
 }
 
-#lamp{
-    width: 35.7em;
-    height: 30em;
-    margin-left: -1em;
-}
 
+#lamp{
+    width: 100%;
+
+}
+#div2{
+    padding: 0%;
+    margin: 0%;
+}
 #d4{
     background-color: rgb(184, 183, 183);
     height: 30em;
@@ -64,15 +67,11 @@
 }
 
 #mulher{
-    height: 30em;
-    width: 35.7em;
-    margin-left: -1em;
+    width: 100%;
 }
 
 #comp{
-    height: 30em;
-    width: 36em;
-    margin-left: -1em;
+    width: 100%;
 }
 
 
