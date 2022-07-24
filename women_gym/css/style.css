@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(16, 189, 241, 0.966);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    height: 8em;
+}
+
+#logo{
+    height: 8em;
+}
+
+#texto{
+    padding-left: 1em;
+    width: 40em;
+    font-size: 3em;
+}
+
+#d2{
+    color: #133562;
+    font-weight: bold;
+}
+
+#texto2{
+    padding-left: 3.5em;
+    width: 13em;
+    font-size: 1em;
+}
+
+#d7{
+    padding-left: 3.5em;
+}
+
+button{
+    background-color: #133562;
+    color: white;
+    height: 3em;
+    width: 9em;
+    border-radius: 5em;
+    border: #133562;
+}
+
+#tel{
+    padding-left: 1.5em;
+    padding-top: -2em;
+    color: #133562;
+    font-size: 2em;
+    width: 10em;
+
+}
