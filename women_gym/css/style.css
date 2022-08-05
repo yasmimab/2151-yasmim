@@ -1,51 +1,138 @@
-body{
-    background-color: rgba(16, 189, 241, 0.966);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
-header{
-    height: 8em;
+.container_ {
+    display: grid;
+    grid-template-areas: "h"
+                         "m";
 }
 
-#logo{
-    height: 8em;
+body {
+    overflow-x: hidden;
 }
 
-#texto{
-    padding-left: 1em;
-    width: 40em;
+header {
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    grid-area: h;
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+header img {
+    width: 200px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+    transition: .3s;
+}
+
+main {
+    background-color: rgb(4, 1, 17);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    grid-area: m;
+}
+
+.content_:nth-child(1) {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tit-1 {
+    color: white;
     font-size: 3em;
 }
 
-#d2{
-    color: #133562;
+.tit-2 {
+    color: rgb(46, 176, 199);
+    font-size: 3em;
     font-weight: bold;
 }
 
-#texto2{
-    padding-left: 3.5em;
-    width: 13em;
-    font-size: 1em;
-}
-
-#d7{
-    padding-left: 3.5em;
-}
-
-button{
-    background-color: #133562;
+.tit-3 {
     color: white;
-    height: 3em;
-    width: 9em;
-    border-radius: 5em;
-    border: #133562;
+    font-size: 3.5em;
+    font-weight: 700;
 }
 
-#tel{
-    padding-left: 1.5em;
-    padding-top: -2em;
-    color: #133562;
-    font-size: 2em;
-    width: 10em;
+.tit-4 {
+    color: rgb(46, 176, 199);
+    font-size: 2.5em;
+    font-weight: bold;
+}
 
+.paragrafo {
+    text-align: justify;
+    width: 40%;
+    color: white;
+    font-size: 17px;
+}
+
+.content_:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_ img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer .foot-content{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.btn_ {
+    background-color: rgb(46, 176, 199);
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: rgb(4, 1, 17);
+    font-weight: bold;
 }
