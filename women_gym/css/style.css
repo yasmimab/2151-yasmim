@@ -20,7 +20,7 @@ body {
 
 header {
     background-color: transparent;
-    height: auto;
+    height: 90px;
     width: 100%;
     padding: 0 30px;
 
@@ -40,10 +40,12 @@ header img {
 
 header nav ul {
     display: flex;
-    gap: 30px;
+    gap: 1px;
 }
 
 header nav ul li {
+    padding-top: 10px;
+    padding-right: 100px;
     list-style: none;
 }
 
@@ -79,7 +81,7 @@ main {
 }
 
 .tit-2 {
-    color: rgb(46, 176, 199);
+    color: #3296b6;
     font-size: 3em;
     font-weight: bold;
 }
@@ -91,7 +93,7 @@ main {
 }
 
 .tit-4 {
-    color: rgb(46, 176, 199);
+    color: #3296b6;
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -130,7 +132,7 @@ footer .foot-content{
 }
 
 .btn_ {
-    background-color: rgb(46, 176, 199);
+    background-color: #3296b6;
     border-radius: 40px;
     padding: 10px 20px;
     color: rgb(4, 1, 17);
