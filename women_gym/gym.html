@@ -18,98 +18,97 @@
     <title>Women Gym</title>
 </head>
 <body>
-    <div class="container_">
-        <header>
-            <img src="img/logo3.png">
-            <nav>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Planos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <div class="content_">
-                <h2 class="tit-1">Comece Já!</h2>
-                <h1 class="tit-2">Seja mais saudável</h1>
-                <h3 class="tit-3">Conosco</h3>
-
-                <p class="paragrafo">Uma academia só de mulheres para você se sentir segura!</p>
-
-                <h2 class="tit-4">Primeiro Dia Gratuito</h2>
-                <p class="paragrafo">Marque online</p>
-
-                <footer>
-                    <div class="foot-content">
-                        <button type="button" class="btn_" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Agende Já
-                        </button>
-                          
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="">
+        <div class="container_">
+            <header>
+                <img src="img/logo3.png">
+                <div class="">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Planos</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="content_">
+                    <h2 class="tit-1">Comece Já!</h2>
+                    <h1 class="tit-2">Seja mais saudável</h1>
+                    <h3 class="tit-3">Conosco</h3>
+                    <p class="paragrafo">Uma academia só de mulheres para você se sentir segura!</p>
+                    <h2 class="tit-4">Primeiro Dia Gratuito</h2>
+                    <p class="paragrafo">Marque online</p>
+                    <footer>
+                        <div class="foot-content">
+                            <button type="button" class="btn_" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Agende Já
+                            </button>
+        
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+        
+                                        <form>
+                                            <div class="mb-3">
+        
+                                                <label for="nome" class="form-label">Nome Completo:</label>
+                                                <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                                                <label for="nasc" class="form-label">Data de Nascimento:</label>
+                                                <input type="date" class="form-control" id="nasc" aria-describedby="emailHelp">
+                                                <label for="cpf" class="form-label">CPF:</label>
+                                                <input type="type" class="form-control" id="cpf" aria-describedby="emailHelp" placeholder="xxx.xxx.xxx-xx">
+                                                <label for="num" class="form-label">Número:</label>
+                                                <input type="email" class="form-control" id="num" aria-describedby="emailHelp" placeholder="DDD + Celular">
+                                                <label for="uni">Unidade de preferência</label>
+                                                <select class="form-select" aria-label="Default select example" id="uni">
+                                                    <option selected>Selecione</option>
+                                                    <option value="1">Guadalupe</option>
+                                                    <option value="2">Realengo</option>
+                                                    <option value="3">Barra da Tijuca</option>
+                                                    <option value="4">Recreio</option>
+                                                    <option value="5">Campo Grande</option>
+                                                    <option value="6">Marechal Hermes</option>
+                                                </select>
+                                                <label for="email" class="form-label">Email:</label>
+                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">Nunca compartilharemos seu email com mais ninguém.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="senha" class="form-label">Senha:</label>
+                                                <input type="password" class="form-control" id="senha">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="check">
+                                                <label class="form-check-label" for="check">Ao fornecer meus dados eu concordo com os <a href="#">termos de serviço</a>.</label>
+                                            </div>
+                                          </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="button" class="btn btn-primary" onclick="cadastro()">Cadastrar</button>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="modal-body">
-                                    
-                                    <form>
-                                        <div class="mb-3">
-                                            
-                                            <label for="exampleInputEmail1" class="form-label">Nome Completo:</label>
-                                            <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
-                                            <label for="exampleInputEmail1" class="form-label">Data de Nascimento:</label>
-                                            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            <label for="exampleInputEmail1" class="form-label">CPF:</label>
-                                            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxx.xxx.xxx-xx">
-                                            <label for="exampleInputEmail1" class="form-label">Número:</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="DDD + Celular">
-                                            <label for="uni">Unidade de preferência</label>
-                                            <select class="form-select" aria-label="Default select example">
-                                                <option selected>Selecione</option>
-                                                <option value="1">Guadalupe</option>
-                                                <option value="2">Realengo</option>
-                                                <option value="3">Barra da Tijuca</option>
-                                                <option value="4">Recreio</option>
-                                                <option value="5">Campo Grande</option>
-                                                <option value="6">Marechal Hermes</option>
-                                            </select>
-                                            <label for="exampleInputEmail1" class="form-label">Email:</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            <div id="emailHelp" class="form-text">Nunca compartilharemos seu email com mais ninguém.</div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="exampleInputPassword1" class="form-label">Senha:</label>
-                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                        </div>
-                                        <div class="mb-3 form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Ao fornecer meus dados eu concordo com os <a href="#">termos de serviço</a>.</label>
-                                        </div>
-                                      </form>
-
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                  <button type="button" class="btn btn-primary">Cadastrar</button>
-                                </div>
-                              </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="foot-content">
-                        <img style="width: 24px;" src="img/icon-tel.png">
-                        <p class="paragrafo">40028922</p>
-                    </div>
-                </footer>
-            </div>
-            <div class="content_">
-                <img src="img/img_main.png">
-            </div>
-        </main>
+                        <div class="foot-content">
+                            <img style="width: 24px;" src="img/icon-tel.png">
+                            <p class="paragrafo">40028922</p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="content_">
+                    <img src="img/img_main.png">
+                </div>
+            </main>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
