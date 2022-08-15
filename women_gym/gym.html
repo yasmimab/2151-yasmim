@@ -21,7 +21,7 @@
     <div class="">
         <div class="container_">
             <header>
-                <img src="img/logo3.png">
+                <img src="img/logo.png">
                 <div class="">
                     <nav>
                         <ul>
@@ -59,15 +59,15 @@
                                             <div class="mb-3">
         
                                                 <label for="nome" class="form-label">Nome Completo:</label>
-                                                <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                                                <input type="text" class="form-control" id="nome" aria-describedby="emailHelp" required>
                                                 <label for="nasc" class="form-label">Data de Nascimento:</label>
-                                                <input type="date" class="form-control" id="nasc" aria-describedby="emailHelp">
+                                                <input type="date" class="form-control" id="nasc" aria-describedby="emailHelp" required>
                                                 <label for="cpf" class="form-label">CPF:</label>
-                                                <input type="type" class="form-control" id="cpf" aria-describedby="emailHelp" placeholder="xxx.xxx.xxx-xx">
+                                                <input type="type" class="form-control" id="cpf" maxlength="14" aria-describedby="emailHelp" placeholder="xxx.xxx.xxx-xx" required>
                                                 <label for="num" class="form-label">Número:</label>
-                                                <input type="email" class="form-control" id="num" aria-describedby="emailHelp" placeholder="DDD + Celular">
+                                                <input type="tel" class="form-control" id="num" aria-describedby="emailHelp" placeholder="DDD + Celular" maxlength="12" required>
                                                 <label for="uni">Unidade de preferência</label>
-                                                <select class="form-select" aria-label="Default select example" id="uni">
+                                                <select class="form-select" aria-label="Default select example" id="uni" required>
                                                     <option selected>Selecione</option>
                                                     <option value="1">Guadalupe</option>
                                                     <option value="2">Realengo</option>
@@ -77,23 +77,24 @@
                                                     <option value="6">Marechal Hermes</option>
                                                 </select>
                                                 <label for="email" class="form-label">Email:</label>
-                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                                                 <div id="emailHelp" class="form-text">Nunca compartilharemos seu email com mais ninguém.</div>
                                             </div>
                                             <div class="mb-3">
                                                 <label for="senha" class="form-label">Senha:</label>
-                                                <input type="password" class="form-control" id="senha">
+                                                <input type="password" class="form-control" id="senha" required>
                                             </div>
                                             <div class="mb-3 form-check">
-                                                <input type="checkbox" class="form-check-input" id="check">
+                                                <input type="checkbox" class="form-check-input" id="check" required>
                                                 <label class="form-check-label" for="check">Ao fornecer meus dados eu concordo com os <a href="#">termos de serviço</a>.</label>
                                             </div>
-                                          </form>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-primary" onsubmit="cadastro()" >Cadastrar</button>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-primary" onclick="cadastro()">Cadastrar</button>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                             </div>
@@ -110,6 +111,7 @@
             </main>
         </div>
     </div>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

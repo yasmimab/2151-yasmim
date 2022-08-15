@@ -115,6 +115,7 @@ main {
 .content_ img {
     width: 60%;
     border-radius: 50%;
+    border: 5px solid #3296b6;
 }
 
 footer {
@@ -137,4 +138,69 @@ footer .foot-content{
     padding: 10px 20px;
     color: rgb(4, 1, 17);
     font-weight: bold;
+}
+
+
+
+@media(max-width: 900px) {
+    header {
+        height: 80px;
+        padding: 5px 10px;
+    }
+    
+    header img {
+        width: 80px;
+    }
+    
+    header nav ul {
+        display: flex;
+        gap: 0px;
+    }
+    
+    header nav ul li {
+        padding-right: 10px;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    
+        transition: .3s;
+    }    
+
+    main {
+        flex-direction: column;
+    }
+
+    .content_:nth-child(1) {
+        margin-top: 20%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .tit-1 {
+        font-size: 2em;
+    }
+
+    .tit-2 {
+        font-size: 2em;
+    }
+
+    .tit-3 {
+        font-size: 2.5em;
+    }
+
+    .tit-4 {
+        font-size: 1.5em;
+    }
+
+    .paragrafo {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .content_:nth-child(2) {
+        width: 100%;
+    }
 }
