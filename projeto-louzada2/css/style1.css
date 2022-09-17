@@ -1,0 +1,133 @@
+#logo{
+    height: 5em;
+}
+ header{
+     height: 2em;
+ }
+
+#marca{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#text{
+    font-size: 20px;
+    color: grey;
+}
+
+#texto{
+    height: 30em;
+    width: 30em;
+    text-align: center;
+}
+
+#bt{
+    background-color: white;
+    border-radius: 3px;
+}
+
+#bt:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+#casa{
+    margin-top: -1em;
+    margin-left: -1em;
+    height: 31em;
+    width: 36em;
+}
+
+#d2{
+    background-color: rgb(202, 200, 200);
+    height: 30em;
+}
+
+#logot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #170457;
+}
+
+
+#lamp{
+    width: 100%;
+
+}
+#div2{
+    padding: 0%;
+    margin: 0%;
+}
+#d4{
+    background-color: rgb(202, 200, 200);
+    height: 31em;
+}
+
+#d5{
+    background-color: rgb(202, 200, 200);
+    height: 30em;
+}
+
+#t1{
+    margin-top: 8em;
+}
+
+#mulher{
+    height: 30em;
+    width: 36em;
+    margin-left: -1em;
+}
+
+#comp{
+    height: 30em;
+    width: 36em;
+    margin-left: -1em;
+}
+
+#titulo{
+    margin-top: 2em;
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#p1{
+    margin-left: 2.1em;
+    margin-right: 5em;
+    font-size: 0.9em;
+}
+
+#t2{
+    margin-top: 1em;
+    margin-left: 1.4em;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#t3{
+    margin-top: 3em;
+    margin-left: 1.4em;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+#t4{
+    margin-top: 1.5em;
+    margin-left: 1.4em;
+    font-size: 1em;
+}
+#ul{
+    margin-top: 2.5em;
+    margin-left: 0.5em;
+}
+
+#li{
+    margin-top: 1em;
+}
+
+#titulo2{
+    margin-top: 4em;
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+

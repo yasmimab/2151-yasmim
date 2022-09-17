@@ -1,0 +1,28 @@
+main{
+    padding-bottom: 2em;
+}
+
+h1{
+    padding-top: 1.5em;
+    padding-left: 3.8em;
+    font-weight: bold;
+}
+
+#row{
+    padding-top: 2em;
+}
+
+#anel{
+    width: 26em;
+}
+
+#comp{
+    height: 23.7em;
+    width: 53em;
+    padding-right: 0.5em;
+}
+
+#lum{
+    height: 25em;
+    width: 53em;
+}
