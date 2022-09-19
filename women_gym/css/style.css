@@ -60,11 +60,14 @@ header nav ul li a {
 
 main {
     background-color: rgb(4, 1, 17);
-    height: 100vh;
     width: 100%;
     display: flex;
     
     grid-area: m;
+}
+
+.content{
+    padding-top: 5em;
 }
 
 .content_:nth-child(1) {
@@ -99,11 +102,25 @@ main {
     font-weight: bold;
 }
 
+.tit-5 {
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
 .paragrafo {
     text-align: justify;
     width: 40%;
     color: white;
     font-size: 17px;
+}
+
+.paragrafo2{
+    text-align: justify;
+    width: 40%;
+    color: white;
+    font-size: 17px;
+    padding-top: 1em;
 }
 
 .content_:nth-child(2) {
@@ -139,6 +156,26 @@ footer .foot-content{
     padding: 10px 20px;
     color: rgb(4, 1, 17);
     font-weight: bold;
+}
+
+.planos{
+    padding-top: 5em;
+}
+
+.tit-11{
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.str{
+    color: #3296b6;
+}
+
+.p1{
+    text-align: justify;
+    color: white;
+    font-size: 17px;
 }
 
 
