@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
     <!--CSS DO BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -30,30 +33,94 @@
     </header>
 
     <section>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+        <div class="swiffy-slider">
+            <ul class="slider-container">
+                <li><img src="img/Desktop - 1 (1).jpg" style="width: 100%;height: auto;"></li>
+                <li><img src="img/Desktop - 2 (1).png" style="width: 100%;height: auto;"></li>
+                <li><img src="img/Desktop - 3 (1).png" style="width: 100%;height: auto;"></li>
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+
+        <div id="cclub" style="width: 100%">
+            <p class="text-center" id="p1">Seja membro do Chiara Club:</p>
+
+            <div class="row">
+                <div class="col" id="video">
+                    <img src="img/video.png">
                 </div>
 
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="col">
+                    <h1 id="h1">São mais de 30 tratamentos faciais e corporais por um valor fixo</h1>
+
+                    <div id="valor1">
+                        <p id="valor1p">VALOR PARA MEMBROS CHIARA CLUB * 1 SESSÃO | R$ <strong id="str">99,90</strong></p>
+                        <p class="text-right" id="valor1p2">/mês</p>
+                    </div>
+
+                    <div id="valor1">
+                        <p id="valor1p">VALOR PARA MEMBROS CHIARA CLUB * 2 SESSÕES | R$ <strong id="str">199,90</strong></p>
+                        <p class="text-right" id="valor2p2">/mês</p>
+                    </div>
+
+                    <button id="bt">Associe-se agora</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="capp">
+            <div class="row">
+                <div class="col" id="app">
+                    <img src="img/app.png">
                 </div>
 
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                <div class="col" id="consulte">
+                    <h1 id="consulh1">Novo <br> Chiara App</h1>
+
+                    <ul>
+                        <li>Agende e reagende sessões</li>
+                        <li>Consulte sua agenda e saldo</li>
+                        <li>Compre tratamentos</li>
+                        <li>Confira suas compras</li>
+                        <li>Acompanhe seu tratamento</li>
+                    </ul>
+
+                    <h2 id="consulh2">Tudo em um só lugar!</h2>
+                </div>
+
+                <div class="col" style="max-width: 20%;" id="qrcode">
+                    <h2 class="text-center" id="h2">Descubra o que mais de 6.00 clientes já descobriram</h2>
+                    <h3 id="h3">Aponte a câmera do seu celular para o QR-code e <strong>baixe agora!</strong></h3>
+
+                    <img src="img/qrcode 1.png" id="qr">
+
+                    <div>                                                
+                        <img src="img/playstore.png" id="fotos">
+                    </div>
+
+                    <div>
+                        <img src="img/appstore.png" id="fotos">
+                    </div>
                 </div>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
+            <div class="row">
+                <div class="col-8">
+                    <h3 id="h32"><strong>E AINDA: </strong>Todos os tratamentos da Lilly e as novidades do mercado de estética, beleza e bem-estar.</h3>
+                </div>
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+                <div class="col-4">
+                    <button id="bt2" style="float: right;">BAIXE AGORA</button>
+                </div>
+            </div>
         </div>
     </section>
 
