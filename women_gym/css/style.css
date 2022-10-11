@@ -8,6 +8,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.content_{
+    margin-top: 2em
+}
+
 .container_ {
     display: grid;
     grid-template-areas: "h"
