@@ -5,17 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-
-    <!--CSS DO BOOTSTRAP-->
+    <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!--CSS DO PROJETO-->
     <link rel="stylesheet" href="style.css">
 
-    
-    
     <title>Chiara Estética</title>
 
 </head>
@@ -24,32 +19,42 @@
         <img src="img/logo.png" id="logo">
         <nav>
             <a href="#">TRATAMENTOS</a>
-            <a href="#">CLÍNICAS</a>
             <a href="#">FALE CONOSCO</a>
-            <a href="#">CHIARA APP</a>
-            <a href="#">ACOMODAÇÕES</a>
+            <a href="#capp">CHIARA APP</a>
             <a href="#">CONTATO</a>
         </nav>
     </header>
 
     <section>
-        <div class="swiffy-slider">
-            <ul class="slider-container">
-                <li><img src="img/Desktop - 1 (1).jpg" style="width: 100%;height: auto;"></li>
-                <li><img src="img/Desktop - 2 (1).png" style="width: 100%;height: auto;"></li>
-                <li><img src="img/Desktop - 3 (1).png" style="width: 100%;height: auto;"></li>
-            </ul>
-        
-            <button type="button" class="slider-nav"></button>
-            <button type="button" class="slider-nav slider-nav-next"></button>
-        
-            <div class="slider-indicators">
-                <button class="active"></button>
-                <button></button>
-                <button></button>
+
+        <!--CAROUSEL-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="IMG/Desktop - 1 (1).jpg" alt="Primeiro Slide">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="IMG/Desktop - 2 (1).png" alt="Segundo Slide">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="IMG/Desktop - 3 (1).png" alt="Terceiro Slide">
+                </div>
             </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
         </div>
 
+        <!--PRIMEIRA DIVISÃO-->
         <div id="cclub" style="width: 100%">
             <p class="text-center" id="p1">Seja membro do Chiara Club:</p>
 
@@ -76,6 +81,7 @@
             </div>
         </div>
 
+        <!--SEGUNDA DIVISÃO(CHIARA APP)-->
         <div id="capp">
             <div class="row">
                 <div class="col" id="app">
@@ -124,7 +130,9 @@
         </div>
     </section>
 
-    <!--SCRIPT DO BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!--JAVASCRIPT BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
