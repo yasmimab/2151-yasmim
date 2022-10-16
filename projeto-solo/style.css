@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: rgb(128, 92, 68);
+    background-color: rgb(143, 105, 80);
     height: 6em;
 }
 
@@ -42,6 +42,10 @@ header nav a:hover {
     height: 32em;
 }
 
+#row{
+    padding-right: 14.5em;
+}
+
 #p1{
     color: rgb(107, 53, 3);
     padding-top: 1em;
@@ -50,8 +54,8 @@ header nav a:hover {
 }
 
 #video{
-    margin-left: 4em;
-    margin-top: 3em;
+    text-align: right;
+    padding-top: 2em;
 }
 
 #h1{
@@ -89,7 +93,7 @@ header nav a:hover {
 }
 
 #bt{
-    float: right;
+    text-align: left;
     margin-right: 3.6em;
     background-color: rgb(47, 90, 139);
     color: #ffffff;
@@ -97,20 +101,31 @@ header nav a:hover {
     padding: 0.5em;
     border-style: none;
 }
+
+#bt :hover{
+    background-color: rgb(47, 90, 139);
+}
+
 #capp{
     padding-top: 3em;
     background-color: rgb(190, 139, 105);
     height: 35em;
+    font-size: 0.8em;
 }
 
-#consulh1{
-    font-size: 3em;
+#app{
+    padding-left: 10em;
+}
+
+#consulte h1{
+    font-size: 4em;
     color: #ffffff;
 }
 
-#consulh2{
+#consulte h2{
     color: rgb(47, 90, 139);
     font-weight: bold;
+    font-size: 1.7em;
 }
 
 ul li{
@@ -122,8 +137,9 @@ ul li{
 #qrcode{
     background-color: #ffffff;
     height: 26em;
-    margin-right: 10em;
+    margin-right: 18em;
     border-radius: 2em;
+    text-align: center;
 }
 
 #h2{
@@ -147,19 +163,177 @@ h3 strong{
 #fotos{
     height: 2.5em;
     margin-top: 1em;
-    margin-left: 4.8em;
 }
 
 #h32{
-    margin-left: 3em;
-    font-size: 1.3em;
+    margin-left: 10em;
+    font-size: 1.4em;
 }
 
 #bt2{
-    margin-right: 15em;
+    margin-right: 23.5em;
     margin-top: 1em;
     background-color: rgb(47, 90, 139);
     color: #ffffff;
     padding: 0.5em;
     border-style: none;
+}
+
+#pacote{
+    background-color: #DADADA;
+    height: 92em;
+}
+
+#pct{
+    padding-top: 2em;
+}
+
+#pacote h1{
+    color: rgb(107, 53, 3);
+    font-weight: bold;
+}
+
+#pct1{
+    border-radius: 0.5em;
+    margin-top: 2em;
+    margin-left: 3em;
+    background-color: white;
+    height: 34em;
+    width: 18.4em;
+}
+
+#pct1 img, #trat img{
+    margin-left: -0.8em;
+    margin-top: -0.5em;
+}
+
+#peel{
+    font-weight: lighter;
+    font-size: 1.6em;
+    text-align: start;
+
+}
+
+#pct1 h3, #trat h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(107, 53, 3);
+    text-align: start;
+}
+
+#pct1 p, #trat p{
+    font-size: 0.8em;
+    text-align: start;
+    font-weight: bold;
+    color: gray;
+}
+
+#pctvalor{
+    background-color: #e7e7e7;
+    height: 3em;
+    width: 15.5em;
+    margin-top: 1em;
+}
+
+#pctvalor p{
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    color: black;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+#pctstr{
+    color: rgb(47, 90, 139);
+}
+
+#pctstr2{
+    font-size: 1.4em;
+}
+
+#tattoo{
+    font-size: 1.4em;
+    text-align: start;
+}
+
+#precos{
+    margin-top: 2.2em;
+}
+
+#precos2{
+    margin-top: 0.8em;
+}
+
+#ultdiv{
+    margin-left: 15em;
+}
+
+#bt3{
+    border-radius: 5em;
+    background-color: rgb(83, 42, 3);
+    border-style: none;
+    margin-top: 1em;
+    width: 16.5em;
+    color: white;
+    padding: 0.5em;
+}
+
+#bt4{
+    border-radius: 5em;
+    background-color: rgb(83, 42, 3);
+    border-style: none;
+    width: 16.5em;
+    color: white;
+    padding: 0.5em;
+}
+
+#trath1{
+    margin-top: 3em;
+}
+
+#trat2{
+    margin-top: 3.5em;
+}
+
+#trat3{
+    margin-top: -0.5em;
+}
+
+#trat{
+    border-radius: 0.5em;
+    margin-top: 2em;
+    margin-left: 3em;
+    background-color: white;
+    height: 22em;
+    width: 18.4em;
+}
+
+footer{
+    background-color: rgb(143, 105, 80);
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1em;
+    height: 15em;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+footer h2{
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#yt{
+    margin-left: 0.5em;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer a :hover{
+    text-decoration: underline;
 }
