@@ -142,7 +142,7 @@ ul li{
     text-align: center;
 }
 
-#h2{
+#qrcode h2{
     color: rgb(107, 53, 3);
     font-size: 1.7em;
 }
@@ -170,7 +170,7 @@ h3 strong{
     font-size: 1.4em;
 }
 
-#bt2{
+#capp button{
     margin-right: 23.5em;
     margin-top: 1em;
     background-color: rgb(47, 90, 139);
@@ -336,4 +336,50 @@ footer a{
 
 footer a :hover{
     text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1500px){
+    
+    #consulte h1{
+        font-size: 3.4em;
+    }
+
+    #h32{
+        margin-left: 10.3em;
+        font-size: 15.4px;
+    }
+
+    #app img{
+        width: 40em;
+    }
+
+    ul li{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-left: -1.7em;
+    }
+
+    #consulte h2{
+        font-size: 1.6em;
+    }
+
+    #qrcode{
+        background-color: #ffffff;
+        margin-right: 27em;
+    }
+
+    #qrcode h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.1em;
+    }
+
+    #capp button{
+        margin-right: 31.2em;
+        width: 8em;
+    }
 }
