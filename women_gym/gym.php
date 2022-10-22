@@ -27,7 +27,7 @@
                         <ul>
                             <li><a href="#">Início</a></li>
                             <li><a href="#">Planos</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#">Login</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -108,9 +108,6 @@
                     </footer>
 
                     <div>
-                        <h2 class="tit-5">Já possui um plano?</h2>
-                        <p class="paragrafo">Faça <a data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#">login</a></p>
-                    
                         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                               <div class="modal-content">
@@ -119,7 +116,8 @@
                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <form>
+                                    <form method="POST" action="#">
+
                                         <div class="mb-3">
                                             <label for="email" class="form-label">Email:</label>
                                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
@@ -127,6 +125,12 @@
                                         <div class="mb-3">
                                             <label for="senha" class="form-label">Senha:</label>
                                             <input type="password" class="form-control" id="senha" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <?php
+                                            include "valida.php"
+                                            ?>
+                                            
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>

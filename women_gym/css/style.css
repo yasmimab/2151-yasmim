@@ -154,7 +154,7 @@ footer .foot-content{
     align-items: flex-start;
 }
 
-.btn_ {
+.btn_, #login {
     background-color: #3296b6;
     border-radius: 40px;
     padding: 10px 20px;
@@ -245,4 +245,13 @@ footer .foot-content{
     .content_:nth-child(2) {
         width: 100%;
     }
+}
+
+#login {
+    background-color: #3296b6;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: rgb(4, 1, 17);
+    font-weight: bold;
+    width: 8em
 }
