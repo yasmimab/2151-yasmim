@@ -25,7 +25,7 @@
                 <div class="">
                     <nav>
                         <ul>
-                            <li><a href="#">Início</a></li>
+                            <li><a href="gym.php">Início</a></li>
                             <li><a href="planos.php">Planos</a></li>
                             <li><a href="login.php">Login</a></li>
                         </ul>

@@ -45,3 +45,42 @@ header {
      color: rgb(4, 1, 17);
      text-transform: uppercase;
  }
+
+ .text-center{
+    padding-top: 3em;
+    font-size: 1.5em;
+    color: rgb(4, 1, 17);
+ }
+
+ .input{
+    margin-left: 12em;
+    width: 60em;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-top: 1em;
+ }
+
+ #uni1{
+    margin: auto;
+    margin-top: 5em;
+    height: 30em;
+    width: 60%;
+    box-shadow: 10px 5px 5px rgb(235, 235, 235);
+    margin-bottom: 3em;
+    background-color: aqua;
+ }
+
+ .bt{
+    width: 22em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 0.5em;
+    border-style: none;
+    color: white;
+    background-color: rgb(4, 1, 17);
+ }
+
+ h5{
+    padding-top: 1em;
+    color: rgb(4, 1, 17);
+ }
