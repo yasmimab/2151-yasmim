@@ -18,7 +18,6 @@
             $senha = $dados['senha'];
             $nome = $dados['nome'];
             $nivel = $dados['nivel'];
-            $email = $dados['email'];
             $foto = $dados['foto'];
 
             if(!isset($_SESSION)){
@@ -27,7 +26,6 @@
 
             $_SESSION['nome'] = $nome;
             $_SESSION['login'] = $login;
-            $_SESSION['email'] = $email;
             $_SESSION['nivel'] = $nivel;
             $_SESSION['foto'] = $foto;
 
@@ -36,11 +34,14 @@
                 header('location: adm.php');
             }
             else{
-                header('location: ../usuarios/perfil.php');
+                header('location: usuarios/perfil.php');
             }
         }
         else{
             echo "Usuário ou senha inválidos.";
+            echo "<p>$login . $senha </p>";
+            echo "<p> $sql</p>";
+            echo "<p> $existe</p>";
         }
     }
     
