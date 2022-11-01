@@ -25,9 +25,9 @@ header {
  }
  
  header img {
-     width: 150px;
-     height: 110px;
- }
+   width: 190px;
+   height: 170px;
+}
  
  header nav ul {
      display: flex;
@@ -42,14 +42,14 @@ header {
  
  header nav ul li a { 
      text-decoration: none;
-     color: rgb(4, 1, 17);
+     color: rgb(25, 8, 101);
      text-transform: uppercase;
  }
 
  .text-center{
     padding-top: 3em;
     font-size: 1.5em;
-    color: rgb(4, 1, 17);
+    color: rgb(25, 8, 101);
  }
 
  .input{
@@ -63,11 +63,10 @@ header {
  #uni1{
     margin: auto;
     margin-top: 5em;
-    height: 30em;
-    width: 60%;
-    box-shadow: 10px 5px 5px rgb(235, 235, 235);
+    height: 28em;
+    width: 73%;
+    box-shadow: 15px 10px 10px rgb(212, 212, 212);
     margin-bottom: 3em;
-    background-color: aqua;
  }
 
  #uni1 button strong{
@@ -82,26 +81,65 @@ header {
     border-radius: 0.5em;
     border-style: none;
     color: white;
-    background-color: rgb(4, 1, 17);
+    background-color: rgb(25, 8, 101);
+ }
+
+.bt :hover{
+   background-color: rgb(88, 55, 235);
  }
 
  h5{
     padding-top: 1em;
-    color: rgb(4, 1, 17);
+    color: rgb(25, 8, 101);
  }
 
  p{
     width: 18em;
+    color: rgb(134, 141, 168);
  }
 
  #planos1{
     width: 6em;
  }
 
- #pplanos{
+ #pplanos1{
     font-size: 0.8em;
     width: 2em;
     margin-left: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(25, 8, 101);
  }
+
+ #pplanos2{
+   font-size: 0.8em;
+   width: 2em;
+   margin-left: 5em;
+   font-weight: bold;
+   color: rgb(25, 8, 101);
+}
+
+#pplanos3{
+   font-size: 0.8em;
+   width: 2em;
+   margin-left: 5.5em;
+   font-weight: bold;
+   color: rgb(25, 8, 101);
+}
+
+#clock{
+   margin-top: 1.3em;
+}
+
+#horario{
+   margin-top: -2.05em;
+   margin-left: 1.3em;
+   color: rgb(134, 141, 168);
+}
+
+#hora p{
+   font-size: 0.8em;
+   color: rgb(134, 141, 168);
+}
 
  
