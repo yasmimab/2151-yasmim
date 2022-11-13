@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ 
+     font-family: 'Montserrat', sans-serif;
+ }
+
+header {
+     background-color: transparent;
+     height: 90px;
+     width: 100%;
+     padding: 0 30px;
+ 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ 
+     grid-area: h;
+     top: 0;
+     left: 0; 
+     
+ }
+ 
+ header img {
+   width: 190px;
+   height: 170px;
+}
+ 
+ header nav ul {
+     display: flex;
+     gap: 1px;
+ }
+ 
+ header nav ul li {
+     padding-top: 10px;
+     padding-right: 100px;
+     list-style: none;
+ }
+ 
+ header nav ul li a { 
+     text-decoration: none;
+     color: rgb(25, 8, 101);
+     text-transform: uppercase;
+ }
+
+ .text-center{
+    padding-top: 3em;
+    font-size: 1.5em;
+    color: rgb(25, 8, 101);
+ }
+
+ .input{
+    margin-left: 12em;
+    width: 60em;
+    border-radius: 1.5em;
+    padding: 0.5em;
+    margin-top: 1em;
+ }
+
+ #uni1{
+    margin: auto;
+    margin-top: 5em;
+    height: 28em;
+    width: 73%;
+    box-shadow: 15px 10px 10px rgb(212, 212, 212);
+    margin-bottom: 3em;
+ }
+
+ #uni1 button strong{
+    font-size: 1.3em;
+ }
+
+ .bt{
+    width: 22.3em;
+    height: 4em;
+    margin-top: 0.5em;
+    margin-left: 0.2em;
+    border-radius: 0.5em;
+    border-style: none;
+    color: white;
+    background-color: rgb(25, 8, 101);
+ }
+
+.bt :hover{
+   background-color: rgb(88, 55, 235);
+ }
+
+ h5{
+    padding-top: 1em;
+    color: rgb(25, 8, 101);
+ }
+
+ p{
+    width: 18em;
+    color: rgb(134, 141, 168);
+ }
+
+ #planos1{
+    width: 6em;
+ }
+
+ #pplanos1{
+    font-size: 0.8em;
+    width: 2em;
+    margin-left: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(25, 8, 101);
+ }
+
+ #pplanos2{
+   font-size: 0.8em;
+   width: 2em;
+   margin-left: 5em;
+   font-weight: bold;
+   color: rgb(25, 8, 101);
+}
+
+#pplanos3{
+   font-size: 0.8em;
+   width: 2em;
+   margin-left: 5.5em;
+   font-weight: bold;
+   color: rgb(25, 8, 101);
+}
+
+#clock{
+   margin-top: 1.3em;
+}
+
+#horario{
+   margin-top: -2.05em;
+   margin-left: 1.3em;
+   color: rgb(134, 141, 168);
+}
+
+#hora p{
+   font-size: 0.8em;
+   color: rgb(134, 141, 168);
+}
+
+ 

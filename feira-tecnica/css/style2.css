@@ -1,0 +1,91 @@
+main{
+    padding-bottom: 2em;
+}
+
+h1{
+    padding-top: 1.5em;
+    padding-left: 3.8em;
+    font-weight: bold;
+}
+
+#row{
+    padding-top: 2em;
+}
+
+#anel{
+    width: 26em;
+}
+
+#comp{
+    height: 23.7em;
+    width: 53em;
+    padding-right: 0.5em;
+}
+
+#lum{
+    height: 25em;
+    width: 53em;
+}
+
+
+@media screen and (max-width: 1500px){
+
+    #impressora{
+        margin-left: 5em;
+    }
+
+    #cinema{
+        margin-right: 8em;
+    }
+
+    #rv{
+        margin-top: 2em;
+    }
+
+    #comp{
+        margin-left: 8em;
+
+    }
+
+    #anel{
+        margin-top: 27em;
+        margin-left: -22.5em;
+    }
+
+    #med{
+        margin-top: -40.3em;
+        margin-left: 8em;
+        height: 23.7em;
+        width: 25em;
+    }
+
+    #lum{
+        margin-left: -25em;
+    }
+
+    #compp{
+        margin-left: 20em;
+    }
+
+    #anelp{
+        margin-left: -22.5em;
+        text-align: center
+    }
+
+    #medp{
+        margin-top: -9em;
+        margin-right: -20em;
+    }
+
+    #lump{
+        margin-left: -25em;
+    }
+
+    #imp{
+        margin-right: -5em;
+    }
+
+    #cinep{
+        margin-left: -5em;
+    }
+}

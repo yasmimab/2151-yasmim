@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS DO PROJETO -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- CSS DO BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -21,13 +21,13 @@
     <div class="">
         <div class="container_">
             <header>
-                <img src="img/logo.png">
+                <img src="../img/logo.png">
                 <div class="">
                     <nav>
                         <ul>
-                            <li><a href="#">Início</a></li>
-                            <li><a href="#">Planos</a></li>
-                            <li><a data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#">Login</a></li>
+                            <li><a href="gym.php">Início</a></li>
+                            <li><a href="planos.php">Planos</a></li>
+                            <li><a href="login.php">Login</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -102,51 +102,12 @@
                         </div>
 
                         <div class="foot-content">
-                            <img style="width: 24px;" src="img/icon-tel.png">
+                            <img style="width: 24px;" src="../img/icon-tel.png">
                             <p class="paragrafo">40028922</p>
                         </div>
                     </footer>
 
-                    <div>
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form method="POST" action="#">
-
-                                        <div class="mb-3">
-                                            <label for="email" class="form-label">Email:</label>
-                                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="senha" class="form-label">Senha:</label>
-                                            <input type="password" class="form-control" id="senha" required>
-                                        </div>
-                                        <div class="mb-3">
-                                            <?php
-                                            include "valida.php"
-                                            ?>
-                                            
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                            <button type="submit" class="btn btn-primary">Logar</button>
-                                        </div>
-                                    </form>
-                                </div>
-                        
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="planos">
-                        <h2 class="tit-11">A melhor opção na hora de levar <strong class="str">uma vida + saudável</strong></h2>
-                        <p class="p1">Os melhores equipamentos, infraestrutura e muito mais com mensalidades acessíveis.</p>
                     </div>                    
                     
                 </div>
@@ -154,7 +115,7 @@
                 
 
                 <div class="content_">
-                    <img src="img/img_main.png">
+                    <img src="../img/img_main.png">
                 </div>
                
             </main>
