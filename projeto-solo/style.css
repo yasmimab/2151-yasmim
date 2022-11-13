@@ -342,17 +342,24 @@ footer a :hover{
 
 @media screen and (max-width: 1500px){
     
+    #video{
+        text-align: left;
+        margin-left: 13em;
+        margin-top: 1.5em;
+    }
+
     #consulte h1{
         font-size: 3.4em;
     }
 
     #h32{
-        margin-left: 10.3em;
+        margin-left: 11.7em;
         font-size: 15.4px;
     }
 
     #app img{
         width: 40em;
+        margin-left: 2em;
     }
 
     ul li{
@@ -367,7 +374,7 @@ footer a :hover{
 
     #qrcode{
         background-color: #ffffff;
-        margin-right: 27em;
+        margin-right: 20em;
     }
 
     #qrcode h2{
@@ -379,7 +386,15 @@ footer a :hover{
     }
 
     #capp button{
-        margin-right: 31.2em;
+        margin-right: 24em;
         width: 8em;
+    }
+
+    #sla{
+        margin-right: -8em;
+    }
+
+    #lala{
+        margin-left: -3em;
     }
 }
