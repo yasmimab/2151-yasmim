@@ -1,12 +1,12 @@
 <?php
     include "conexao.php";
 
-    if(isset($_POST['login'])){
-        $login = trim($_POST['login']);
+    if(isset($_POST['email'])){
+        $email = trim($_POST['email']);
         $senha = trim($_POST['senha']);
         
         //escreve a sql
-        $sql = "select * from usuarios where login = '$login' and senha = '$senha'";
+        $sql = "select * from usuarios where email = '$email' and senha = '$senha'";
         //executa a sql
         $testeLogin = mysqli_query($conexao,$sql);
         $existe = mysqli_num_rows($testeLogin);
@@ -25,7 +25,7 @@
             }
 
             $_SESSION['nome'] = $nome;
-            $_SESSION['login'] = $login;
+            $_SESSION['email'] = $email;
             $_SESSION['nivel'] = $nivel;
             $_SESSION['foto'] = $foto;
 
@@ -39,7 +39,7 @@
         }
         else{
             echo "Usuário ou senha inválidos.";
-            echo "<p>$login . $senha </p>";
+            echo "<p>$email . $senha </p>";
             echo "<p> $sql</p>";
             echo "<p> $existe</p>";
         }

@@ -3,14 +3,14 @@
 
     if(isset($_POST['nome'])){
         //coletar dados do formulário
-        $login = $_POST['login'];
+        $email = $_POST['email'];
         $senha = $_POST['senha'];
         $nome = $_POST['nome'];
         $nivel = 'usu';
         $foto = '../fotos/semfoto.png';
 
         //comunicação com o banco de dados - insere no banco
-        $sql = "insert into usuarios(login,senha,nome,nivel,foto) values('$login','$senha','$nome','$nivel','$foto')";
+        $sql = "insert into usuarios(email,senha,nome,nivel,foto) values('$email','$senha','$nome','$nivel','$foto')";
         $incluir = mysqli_query($conexao,$sql);
 
         //saída - feedback com o usuário

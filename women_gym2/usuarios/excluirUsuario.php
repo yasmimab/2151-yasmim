@@ -2,10 +2,10 @@
 
     include "adm/conexao.php";
 
-    if(isset($_GET['login'])){
-        $login = $_GET['login'];
+    if(isset($_GET['email'])){
+        $email = $_GET['email'];
 
-        $sql = "delete from usuarios where login = '$login'";
+        $sql = "delete from usuarios where email = '$email'";
         $excluir = mysqli_query($conexao,$sql);
 
         //feedback ao usuario
