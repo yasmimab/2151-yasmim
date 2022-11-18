@@ -18,7 +18,7 @@
             echo "
                 <script>
                     alert('Usuário cadastrado com sucesso');
-                    window.location = 'listarUsuario.php';
+                    window.location = '..adm/planos.php';
                 </script>
             ";
         }
